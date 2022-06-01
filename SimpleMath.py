@@ -7,6 +7,10 @@ def add(num1, num2):
 def subtract(num1, num2):
     return num1 - num2
 
+def div(num1, num2):
+    #student code
+    return
+
 def main():
     someNum = int(input("Give me a number: "))
     print(someNum)
