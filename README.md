@@ -18,11 +18,10 @@ Review the code provided. Answer the following questions by adding comments to y
 Find the function div(num1, num2). As a reminder, a function is a way to break up code into repeatable bits to be reused.
 
 Write the code for div(num1, num2) that takes in two numbers of any type and outputs a float version of num1 / num2.
-
 For example, if someone calls the function with
-
 div(10, 5) the function would return 2
 div(5,10) the function would return 0.5
+
 The function itself will not print or take in input from the client! (Ask yourself where that happens in the code). As such you will want to focus on the single task that is the function - and that is to simply divide two numbers.
 
 # Step 3: Test div(num1, num2)
