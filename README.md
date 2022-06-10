@@ -43,3 +43,4 @@ We often want to convert our input into one of these three types because all inp
 
 # Reminder on Variables
 Like in math, variables are named placeholders for information. Often, in functions, you will see a lot of variable manipulation like x = y + z, where y and z are placeholders for whatever values we give them somewhere else, like in main. We **assign** values with variables with the = sign, like x = 3. In the special case of function input, like dec(3), where the dec() code is written dec(num), the computer understands an **implied** num = 3.
+
