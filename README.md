@@ -19,10 +19,10 @@ Find the function div(num1, num2). As a reminder, a function is a way to break u
 
 Write the code for div(num1, num2) that takes in two numbers of any type and outputs a float version of num1 / num2.
 For example, if someone calls the function with
-'''
+```
 div(10, 5) # the function would return 2
 div(5,10) # the function would return 0.5
-'''
+```
 The function itself will not print or take in input from the client! (Ask yourself where that happens in the code). As such you will want to focus on the single task that is the function - and that is to simply divide two numbers.
 
 # Step Three: Test div(num1, num2)
@@ -30,10 +30,10 @@ How do you test code? You simply add the lines to your python file (in the futur
 
 As such, we would recommend adding the following just above def main().
 
-''' 
+```
 print("TESTING", div(10, 5))
 print("TESTING", div(5, 10))
-'''
+```
 Also add your own tests!
 
 # Submitting the Assignment
