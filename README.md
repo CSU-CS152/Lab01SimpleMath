@@ -10,8 +10,8 @@ Answer the following questions as comments in your code:
 2. What happens if I do multiply(add(7, 2), 2)? What is the output and what type is it?
 3. What is the difference between add(“3”, “4”) and add(3, 4). What do the outputs look like and why?
 4. What is main doing? What is printed if the console input is 
-2
-9 
+2 for the variable someNum and 
+9 for the variable anotherNum
 5. Set a variable to “dog”. What type is this?
 6. Set another variable to 7 as a float using casting.
 
