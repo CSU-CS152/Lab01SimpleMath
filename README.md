@@ -41,16 +41,16 @@ Also add your own tests!
 Make sure to submit the assignment for grading! If you haven't clicked through the canvas link in a while, we would suggest clicking through it again before submitting.
 
 # Reminder on parameter vs input()
-When writing a function, consider your parameters to be unknown information. A user may enter input with any two numbers when calling the `multiply()` function, for example multiply(3, 2) or multiply(9, 1). The numbers don't matter, and we can't assume exactly what will be entered outside of the type, either. That's the point of computer science. To write a function with a process that will work for ANY input. 
+When writing a function, consider your parameters to be unknown information. A user may enter input with any two numbers when calling the `multiply()` function, for example `multiply(3, 2)` or `multiply(9, 1)`. The numbers don't matter, and we can't assume exactly what will be entered outside of the type, either. That's the point of computer science. To write a function with a process that will work for *any* input. 
 
 # Reminder on print() vs. return
-As you have likely seen in your code, there are times when things are print()ed and times when things are returned. When we print() something, we do so to display it -- we want what we are printing to be seen. Returns, on the other hand, are useful for doing a bunch of behind the scenes work without being seen. Think of it like a game of Go Fish: when you have your pair or set of 4, you set it down for all the other players to see (or you *print()* the pair), but when you draw new cards to try to find matches, you don't want anyone to see what card you drew, you instead silently *return* it to your hand. Print displays the thing, but return actually has the physical value of the thing, so that it can be used later. Most of your functions in this class will require a return because our tests need to look at the physical value. 
+As you have likely seen in your code, there are times when things are print()ed and times when things are returned. When we `print()` something, we do so to display it -- we want what we are printing to be seen. Returns, on the other hand, are useful for doing a bunch of behind the scenes work without being seen. Think of it like a game of Go Fish: when you have your pair or set of 4, you set it down for all the other players to see (or you *print()* the pair), but when you draw new cards to try to find matches, you don't want anyone to see what card you drew, you instead silently *return* it to your hand. Print displays the thing, but return actually has the physical value of the thing, so that it can be used later. Most of your functions in this class will require a return because our tests need to look at the physical value. 
 
 A print() will always display to *something*, maybe a console, file, etc.
 `print(multiply(add(7,2),2))` will display 18 to console
 A return will send out the physical value
-`var1 = multiply(add(7,2),2)` will catch our 18 in var1
-The add(7,2) in multiply(add(7,2),2) is caught by the num1 parameter in multiply for use as a value
+`var1 = multiply(add(7,2),2)` will set our var1 to the 18 returned from `multiply(add(7,2),2)`
+The `add(7,2)` in `multiply(add(7,2),2)` is used by the num1 parameter in multiply for use as a value
 
 # Reminder on Types
 We are focusing on three main types in this class: int, float, and string. Ints are integers, so numbers without decimals. If you turn a decimal number into an int, it will completely cut off the decimal part, leaving only the whole number. Floats are decimal numbers, so they do not cut off the decimal, and leave it as is. Strings are essentially like sentences, words, phrases, or other info stored in "". For example, "dog", "I am", and "3 4" are all strings. 
