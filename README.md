@@ -5,7 +5,7 @@ Basic Input/Output Warmup Lab
 Review the code provided. Answer the following questions by adding comments to your code! You are free to talk with other students and seek better understanding to these questions. See below for reminders on types, variables, and input
 
 # Step One
-Answer the following questions as comments in your code:
+Complete the following questions in the comments at the top of your code. If your answer is multiple lines, use these: \``` around your answer:
 1. What is the output for multiply(3, 4), and what type is it?
 2. What happens if I do multiply(add(7, 2), 2)? What is the output and what type is it?
 3. What is the difference between add(“3”, “4”) and add(3, 4). What do the outputs look like and why?
